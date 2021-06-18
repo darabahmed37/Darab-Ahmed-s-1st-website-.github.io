@@ -1,0 +1,38 @@
+@media (max-width: 958px) {
+  #hamburger {
+    display: block;
+  }
+  #header {
+    height: 18vh;
+    width: 100%;
+  }
+  #navbar,
+  form {
+    display: none;
+  }
+  #header img {
+    margin-right: auto;
+  }
+  .section-img {
+    width: 88vw;
+  }
+  #my {
+    width: 50vw;
+    margin: 25px auto;
+  }
+}
+
+.line {
+  width: 35px;
+  height: 3px;
+  border: 2px solid;
+  margin: 5px;
+  border-radius: 6px;
+  color: rgba(211, 98, 201, 0.808);
+}
+#hamburger {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
