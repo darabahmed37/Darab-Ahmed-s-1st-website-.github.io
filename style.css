@@ -59,18 +59,22 @@ form button:hover {
   border: 2px solid rgb(219, 146, 213);
 }
 .section {
-  width: 97vw;
-  height: 80vh;
+  max-width: 95vw;
+  max-height: 80vh;
+  height: auto;
+  width: auto;
   border: 2px solid;
   box-shadow: 0 0 6px 3px grey;
   margin: 28px auto;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   border-radius: 15px;
 }
 
 .section-img {
-  height: 53vh;
+  width: 26vw;
+  margin: auto;
   display: inline-block;
   margin: 5vh 3vw;
   box-shadow: 0 0 16px #5d9c9c;
@@ -114,9 +118,10 @@ strong {
 }
 .educationRow {
   display: flex;
+  flex-wrap: wrap;
 }
 .educationRow img {
-  display: block;
+  display: inline-block;
 }
 .details {
   display: flex;
@@ -136,4 +141,7 @@ h4 {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+}
+#hamburger {
+  display: none;
 }
