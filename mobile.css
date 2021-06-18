@@ -4,10 +4,13 @@
     width: 100%;
     flex-direction: column;
   }
+  nav ul li a {
+    padding: 2px;
+  }
   form {
     margin: auto;
     position: relative;
-    left: 2em;
+    left: 1em;
   }
   #navbar ul {
     flex-direction: column;
