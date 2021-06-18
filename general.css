@@ -8,6 +8,7 @@ a {
 }
 * {
   margin: 0;
+  overflow: hidden;
   text-align: center;
   overflow: inherit;
   box-sizing: border-box;
