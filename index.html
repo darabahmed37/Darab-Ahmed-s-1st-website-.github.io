@@ -11,10 +11,11 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="mobile.css">
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <img src="res/logo.jpg" alt="">
         <nav id="navbar">
             <ul>
@@ -23,16 +24,24 @@
                 <li><a href="#About">About</a></li>
                 <li><a href="#Gallery">Gallery</a></li>
             </ul>
+
         </nav>
         <form action="">
             <input type="text">
             <button id="submit">Search</button>
         </form>
+
+        <button id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </button>
+
     </header>
     <h1 id="home" class="intro"><a href="#home">Intoduction</a></h1>
     <a href="#navbar">
         <section class="section">
-            <img class="section-img" src="res/img.jpg">
+            <img id="my" class="section-img" src="res/img.jpg">
             <div class="char">
                 <p id="name"><strong>My Name is Darab Ahmed</strong></p>
                 <p><span class="text">I am a Student. </span></p>
@@ -86,7 +95,7 @@
             <p>Hello Visitor My Name is Darab Ahmed and I had designed this website Yes I no I am a Noob and this
                 website is
                 not so beautiful but This is my 1<sup>st</sup> Website </p>
-            <p style="margin-bottom: 13em;">I had Designed this website On 18-June-2021 </p>
+            <p>I had Designed this website On 18-June-2021 </p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, quae sunt? Modi repudiandae sunt quae
                 maxime eaque, voluptatem magni laboriosam iste, corrupti fugit adipisci similique, sapiente mollitia.
                 Minus
