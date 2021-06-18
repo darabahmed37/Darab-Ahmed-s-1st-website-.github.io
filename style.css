@@ -68,6 +68,7 @@ form button:hover {
   margin: 28px auto;
   display: flex;
   align-items: center;
+
   flex-wrap: wrap;
   border-radius: 15px;
 }
@@ -141,7 +142,4 @@ h4 {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-}
-#hamburger {
-  display: none;
 }
