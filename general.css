@@ -8,6 +8,8 @@ a {
 }
 * {
   margin: 0;
+  text-align: center;
+  overflow: inherit;
   box-sizing: border-box;
   font-family: "Noto Sans JP", sans-serif;
   padding: 0;
