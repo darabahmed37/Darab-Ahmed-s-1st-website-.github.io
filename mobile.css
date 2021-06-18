@@ -7,10 +7,12 @@
   nav ul li a {
     padding: 2px;
   }
+  .details {
+    margin: auto;
+  }
+
   form {
     margin: auto;
-    position: relative;
-    left: 1em;
   }
   #navbar ul {
     flex-direction: column;
